@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100%;
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  border: 1px solid white;
+  height: 90px;
+}
+
+header > .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 5em;
+}
+
+.menu {
+  font-size: 1.5rem;
+}
