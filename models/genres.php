@@ -13,10 +13,10 @@ class Genres {
 
     public function printGenres(){
         $genres[] = $this->main_genre;
-        foreach($this->subgenres as $genre){
-            $genre[] = $genre;
+        foreach($this->subgenres as $single_genre){
+            $genres[] = $single_genre;
         };
-        return $genres;
+        return implode(",", $genres);
     }
 
 

@@ -23,7 +23,7 @@ class Movie{
 
     public function printCast(){
         foreach($this->cast as $actor){
-            echo "$actor";
+            echo "$actor,  ";
         };
     }
 };
